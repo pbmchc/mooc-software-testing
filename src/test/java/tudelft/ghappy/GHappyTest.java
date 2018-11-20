@@ -38,7 +38,6 @@ class GHappyTest {
         Assertions.assertFalse(gHappy.isEveryGHappy("g"));
     }
 
-
     @Test
     void shouldThrowIfStringIsNull() {
         Executable nullExecutable = () -> gHappy.isEveryGHappy(null);
